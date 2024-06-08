@@ -1,0 +1,165 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0%;
+    margin: 0%;
+    background-color: black;
+    color: blanchedalmond;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+    height: 50px;
+}
+
+.option select {
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff;
+    font-size: 16px;
+    color: #333;
+     
+}
+ 
+
+.button input[type="button"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+     
+}
+.bg{
+     text-align: center;
+     background: url(netflix\ image.jpg)no-repeat center center/cover;
+    color: rgb(148, 18, 18);
+    padding: 100px 0;
+
+
+}
+.content{
+    color: rgb(243, 255, 255);
+    overflow: hidden;
+}
+.search1{
+    width: 100%;
+    align:center ;
+    color: aliceblue;
+    box-shadow: solid red;
+    color: black;
+}
+.btn{
+    text-align: center;
+}
+.auto {
+    float: left;
+    width: 50%;
+    text-align: center;
+    padding: 100px;
+}
+
+.tv {
+    float: left;
+    position: relative;
+    width: 50%;
+}
+
+.image2 img {
+    width: 100%;
+    display: block;
+}
+
+.tv2-video {
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    width: 71%;
+    height: 55%;
+}
+
+.tv2-video video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+ .dn{
+    border-bottom: 10px solid rgb(241, 85, 85);
+}
+.download{
+   display: inline-block;
+   text-align: center;
+   padding: 10px 0;
+   margin: auto;
+   
+}
+.download img{
+    border-radius: 10px;
+    width:75%;
+    margin: 0;
+}
+ 
+.main{
+    float: left;
+    width: 50%;
+    text-align: center;
+    padding: 100px;
+     
+} 
+.tv1{
+    width: 50%;
+    float: left;
+    border-bottom: 1px solid blue;
+    position: relative;
+    
+}
+.tv1 .image1{ 
+   
+
+}
+.tv1 .tv1-video{
+    width:100%;
+    position: absolute;
+    top: 0px;
+    z-index: -1;
+    padding: 57px 0px 0px 125px;
+}
+
+.tv1-video video{
+    width: 70%;
+}
+ 
+.child {
+    border-bottom: 1px solid blue;
+    padding: 20px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.child img {
+    float: left;
+    padding: 0px;
+    max-width: 300px;
+    margin: auto;
+    
+}
+
+.child .text-content {
+    overflow: hidden;
+    padding-left: 20px;
+}
+
